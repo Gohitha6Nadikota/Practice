@@ -4,7 +4,8 @@ sort the array in non-decreasing order using the quick sort algorithm
 return the sorted array.
 */
 
-class Solution {
+class Solution 
+{
     public:
         int findPivot(vector<int>& nums, int low, int high)
         {
@@ -41,5 +42,5 @@ class Solution {
     
             return nums;
         }
-    };
+};
     

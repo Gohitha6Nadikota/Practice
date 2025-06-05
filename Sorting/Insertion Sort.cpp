@@ -4,9 +4,11 @@ sort the array in non-decreasing order using the insertion sort algorithm and
 return the sorted array.
 */
 
-class Solution {
+class Solution 
+{
     public:
-        vector<int> insertionSort(vector<int>& nums) {
+        vector<int> insertionSort(vector<int>& nums) 
+        {
             int n=nums.size();
     
             for(int i=1;i<n;i++)
@@ -22,5 +24,5 @@ class Solution {
             }
             return nums;
         }
-    };
+};
     

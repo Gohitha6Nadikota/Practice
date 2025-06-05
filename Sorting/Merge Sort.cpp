@@ -4,7 +4,8 @@ sort the array in non-decreasing order using the merge sort algorithm.
 Return the sorted array.
 */
 
-class Solution {
+class Solution 
+{
     public:
         void merge(vector<int>& nums,int low,int mid, int high)
         {
@@ -57,5 +58,5 @@ class Solution {
     
             return nums;
         }
-    };
+};
     
